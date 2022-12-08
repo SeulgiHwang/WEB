@@ -1,0 +1,47 @@
+:root{
+    --nav-width: 200px;
+}
+
+*{box-sizing : border-box; margin:0; padding:0;}
+
+/* //휴대폰 가독성 좋게 -> */
+@media screen and (max-width: 600px)
+    nav, 
+    article{
+        width:20%;
+        height:auto;
+    }
+
+#header{
+    background-color: red;
+    height: 100px;
+    padding:10px;
+}
+
+#nav{
+    background-color: orange;
+    height:500px;
+    width: var(--nav-width);
+    float:right;
+    padding:10px;
+}
+
+#section{
+    background-color: yellow;
+    width: cal(100%- var(--nav-width));
+    height: 500px;
+    padding:10px;
+    /* float:left; */
+    border: 10px solid olivedrab;
+}
+
+#footer{
+    background-color: green;
+    height: 500px;
+    clear:both;
+    text-align:center;
+}
+
+.section{
+    background-color: red;
+}

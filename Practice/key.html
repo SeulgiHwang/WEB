@@ -1,0 +1,114 @@
+<!-- table
+		- caption				: 표의 제목을 지정
+		
+		- rowspan				: 상하(행)의 셀을 병합, 병합할 첫 번째 셀을 기준으로 병합할 셀의 개수를 지정
+		- colspan				: 좌우(열)의 셀을 병합, 병합할 첫 번째 셀을 기준으로 병합할 셀의 개수를 지정
+		
+		- border				: 표의 테두리 굵기(px)를 지정
+		
+		* thead					: 테이블 최상단 행의 영역을 지정
+		* tbody					: 테이블 몸체 영역을 지정
+		* tfoot					: 테이블 최하단 영역을 지정
+		
+		* colgroup				: 열 그룹을 지정하여 하나이상의 열에 동일한 형식을 지정하이 위해 사용
+			- col				: 그룹화된 열을 나타내기 위해 사용
+								   (해당 태그에 형식을 지정하면 같은 열에 동일한 형식이 적용된다.)
+	 -->
+
+	 <!-- 창닫기 ctr + k + w -->
+
+	<!-- 
+		form 태그
+		: 클라이언트에서 서버로 데이터를 제출해주는 양식 태그
+	
+		- form 태그 속성
+		action			:	데이터를 받아서 처리할 URL 경로 지정
+
+		method 			:	데이터를 보내는 방식을 지정 ( GET, POST )
+			* GET		: 	URL 주소 뒤에 파리미터(쿼리스트링)를 붙여 전달하는 방식
+							ex. input.jsp?input1=100&input2=200		: "?input1=100&input2=200" (쿼리스트링)
+							
+			* POST		:  	URL 주소에 파라미터(쿼리스트링)을 붙이지 않고 HTTP Request 헤더에 데이터를 포함시켜 전송하는 방식 
+		
+			* GET vs. POST
+			: - GET		:   글자 수 제한 (최대 2048글자)
+						    데이터 노출
+						    북마크 가능
+						    뒤로가기 가능
+						    
+			  - POST	:	길이 제한 없음
+			  				데이터 보안
+			  				북마크 불가
+			  				뒤로가기 불가
+		 -->
+	
+	 
+	 		<!-- input 
+	 		- type 			: 	입력 요소의 유형
+	 			*
+	 			* radio			:	라디오 버튼 입력	(단일 선택)
+	 			* checkbox		:	체크 박스 입력		(다중 선택)
+	 				
+	 			* date			:	날짜 입력
+	 			* month			:	날짜(월까지) 입력
+	 			* time			:	시간 입력
+	 			* datetime-local:	지역 시간 입력
+	 			* number		: 	숫자 입력
+	 			* range			: 	범위 값을 control 로 입력
+	 			
+	 			* file			:	파일 형식 입력
+	 				
+	 			* reset			:	입력 값 초기화
+	 			* submit		:	제출(전송)
+	 			* image			:	이미지를 제출 버튼으로 지정
+	 			* hidden		:	화면에 노출되지 않고 데이터를 입력
+	 		
+	 		- value		:	입력 요소의 초기값
+	  -->
+<!-- 선택 : select name="" id=""
+ <option value="">""</option> --> 
+<!--그룹은 name이 같게 묶여있다--> 
+<!--label과 id는 같다-->
+`
+			<!-- label
+				-readonly 일기전용 입력태그
+				-disabled 비활성화된 입력태그
+				-required 필수입력
+				-plasceholder 입력내용안내
+			-->
+
+      <!--
+        div(divide: 나누다 - "공간(영역)을 나누다")
+        :페이지를 논리적인 영역을 분리하기 위해서 사용하는 태그
+        -Block content Container
+        -block 요소 (상위 영역의 전체 너비를 차지하는 요소)
+    --> 
+
+	<!-- 
+        span 
+        :요소의 내용이 필요한 크기만 차지하는 태그
+        -Inline Text Container
+        -디자인적으로 구분이 필요한 요소를 지정할 때 사용
+        -inline요소(해당 요소의 텍스트만 기본 크기를 갖는 요소)
+     -->	 
+	 <!--CSS 
+		-footer지정시 
+		-clear:both사용해야 맨 아래로감
+		-박스 빈공간 없애기 *{box-sizing: border-box; margin: 0; padding: 0;}
+	  -->
+	 <!-- 호출
+		id => #
+	  -->
+	  <!-- 
+		"사용원할시 ->"\""
+	   -->
+	   <!-- /* 
+	   em: 부모 요소의 배율로 지정한 단위
+	   부모요소: 16px
+	   자식요소: 2em = 32px
+   */
+   /* 
+	   rem: html의 배율로 지정한 단뒤
+	   html 요소 : 32px
+	   지정요소  : 2rem =64px
+   */ -->
